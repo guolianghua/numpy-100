@@ -14,11 +14,19 @@ File automatically generated. See the documentation to update questions/answers/
 
 #### 1. Import the numpy package under the name `np` (★☆☆)
 
+import numpy as np
+
 #### 2. Print the numpy version and the configuration (★☆☆)
+
+np.__version__
 
 #### 3. Create a null vector of size 10 (★☆☆)
 
+np.zeros(10) 参数int或者tuple
+
 #### 4. How to find the memory size of any array (★☆☆)
+ x = np.zeros(10)
+ x.nbytes
 
 #### 5. How to get the documentation of the numpy add function from the command line? (★☆☆)
 
