@@ -30,11 +30,23 @@ np.zeros(10) 参数int或者tuple
 
 #### 5. How to get the documentation of the numpy add function from the command line? (★☆☆)
 
+np.info(np.add)
+
 #### 6. Create a null vector of size 10 but the fifth value which is 1 (★☆☆)
+x = np.zeros(10)
+x[4]=1
 
 #### 7. Create a vector with values ranging from 10 to 49 (★☆☆)
+np.arange(10,50)
 
 #### 8. Reverse a vector (first element becomes last) (★☆☆)
+
+x = np.array([[[7, 6],
+    ...:         [5, 4]],
+    ...:        [[3, 2],
+    ...:         [1, 0]]]);
+
+    np.flip(x)
 
 #### 9. Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)
 
